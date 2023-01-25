@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84954ECB297691E500CF6A75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84954ECA297691E500CF6A75 /* AppDelegate.swift */; };
+		84954ECD297691E500CF6A75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84954ECC297691E500CF6A75 /* SceneDelegate.swift */; };
+		84954ECF297691E500CF6A75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84954ECE297691E500CF6A75 /* ViewController.swift */; };
+		84954ED2297691E500CF6A75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84954ED0297691E500CF6A75 /* Main.storyboard */; };
+		84954ED4297691E600CF6A75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84954ED3297691E600CF6A75 /* Assets.xcassets */; };
+		84954ED7297691E600CF6A75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84954ED5297691E600CF6A75 /* LaunchScreen.storyboard */; };
+		84954EE2297691E600CF6A75 /* TragaperrasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84954EE1297691E600CF6A75 /* TragaperrasTests.swift */; };
+		84954EED297691E600CF6A75 /* TragaperrasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84954EEC297691E600CF6A75 /* TragaperrasUITests.swift */; };
+		84954F0A297694DD00CF6A75 /* tragaperras.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84954F09297694DD00CF6A75 /* tragaperras.jpg */; };
+		84954F1A29769F3B00CF6A75 /* maquina.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84954F1929769F3B00CF6A75 /* maquina.mp3 */; };
+		849D1CDA2976A79700B9640A /* boton.png in Resources */ = {isa = PBXBuildFile; fileRef = 849D1CD92976A79700B9640A /* boton.png */; };
+		849D1CE82976B23B00B9640A /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 849D1CE72976B23B00B9640A /* 0.png */; };
+		849D1CEA2976B24400B9640A /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 849D1CE92976B24400B9640A /* 1.png */; };
+		849D1CEC2976B24A00B9640A /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 849D1CEB2976B24A00B9640A /* 2.png */; };
+		849D1CEE2976B25300B9640A /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 849D1CED2976B25300B9640A /* 3.png */; };
+		849D1CF02976B25800B9640A /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 849D1CEF2976B25800B9640A /* 4.png */; };
+		849D1CF22976B26700B9640A /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 849D1CF12976B26700B9640A /* 5.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84954EDE297691E600CF6A75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84954EBF297691E500CF6A75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84954EC6297691E500CF6A75;
+			remoteInfo = Tragaperras;
+		};
+		84954EE9297691E600CF6A75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84954EBF297691E500CF6A75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84954EC6297691E500CF6A75;
+			remoteInfo = Tragaperras;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84954EC7297691E500CF6A75 /* Tragaperras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tragaperras.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84954ECA297691E500CF6A75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84954ECC297691E500CF6A75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84954ECE297691E500CF6A75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84954ED1297691E500CF6A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84954ED3297691E600CF6A75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84954ED6297691E600CF6A75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84954ED8297691E600CF6A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84954EDD297691E600CF6A75 /* TragaperrasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TragaperrasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84954EE1297691E600CF6A75 /* TragaperrasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TragaperrasTests.swift; sourceTree = "<group>"; };
+		84954EE3297691E600CF6A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84954EE8297691E600CF6A75 /* TragaperrasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TragaperrasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84954EEC297691E600CF6A75 /* TragaperrasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TragaperrasUITests.swift; sourceTree = "<group>"; };
+		84954EEE297691E600CF6A75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84954F09297694DD00CF6A75 /* tragaperras.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tragaperras.jpg; path = ../../../../Downloads/Tragaperras/app/src/main/res/drawable/tragaperras.jpg; sourceTree = "<group>"; };
+		84954F1929769F3B00CF6A75 /* maquina.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = maquina.mp3; path = ../../Downloads/maquina.mp3; sourceTree = "<group>"; };
+		849D1CD92976A79700B9640A /* boton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = boton.png; path = ../../../../Downloads/Tragaperras/app/src/main/res/drawable/boton.png; sourceTree = "<group>"; };
+		849D1CE72976B23B00B9640A /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 0.png; path = ../../../../Downloads/Tragaperras/app/src/main/res/drawable/0.png; sourceTree = "<group>"; };
+		849D1CE92976B24400B9640A /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = ../../../../Downloads/Tragaperras/app/src/main/res/drawable/1.png; sourceTree = "<group>"; };
+		849D1CEB2976B24A00B9640A /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = ../../../../Downloads/Tragaperras/app/src/main/res/drawable/2.png; sourceTree = "<group>"; };
+		849D1CED2976B25300B9640A /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = ../../../../Downloads/Tragaperras/app/src/main/res/drawable/3.png; sourceTree = "<group>"; };
+		849D1CEF2976B25800B9640A /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = ../../../../Downloads/Tragaperras/app/src/main/res/drawable/4.png; sourceTree = "<group>"; };
+		849D1CF12976B26700B9640A /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.png; path = ../../../../Downloads/Tragaperras/app/src/main/res/drawable/5.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84954EC4297691E500CF6A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84954EDA297691E600CF6A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84954EE5297691E600CF6A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84954EBE297691E500CF6A75 = {
+			isa = PBXGroup;
+			children = (
+				84954F1929769F3B00CF6A75 /* maquina.mp3 */,
+				84954EC9297691E500CF6A75 /* Tragaperras */,
+				84954EE0297691E600CF6A75 /* TragaperrasTests */,
+				84954EEB297691E600CF6A75 /* TragaperrasUITests */,
+				84954EC8297691E500CF6A75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84954EC8297691E500CF6A75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84954EC7297691E500CF6A75 /* Tragaperras.app */,
+				84954EDD297691E600CF6A75 /* TragaperrasTests.xctest */,
+				84954EE8297691E600CF6A75 /* TragaperrasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84954EC9297691E500CF6A75 /* Tragaperras */ = {
+			isa = PBXGroup;
+			children = (
+				84954EFA297693D900CF6A75 /* img */,
+				84954ECA297691E500CF6A75 /* AppDelegate.swift */,
+				84954ECC297691E500CF6A75 /* SceneDelegate.swift */,
+				84954ECE297691E500CF6A75 /* ViewController.swift */,
+				84954ED0297691E500CF6A75 /* Main.storyboard */,
+				84954ED3297691E600CF6A75 /* Assets.xcassets */,
+				84954ED5297691E600CF6A75 /* LaunchScreen.storyboard */,
+				84954ED8297691E600CF6A75 /* Info.plist */,
+			);
+			path = Tragaperras;
+			sourceTree = "<group>";
+		};
+		84954EE0297691E600CF6A75 /* TragaperrasTests */ = {
+			isa = PBXGroup;
+			children = (
+				84954EE1297691E600CF6A75 /* TragaperrasTests.swift */,
+				84954EE3297691E600CF6A75 /* Info.plist */,
+			);
+			path = TragaperrasTests;
+			sourceTree = "<group>";
+		};
+		84954EEB297691E600CF6A75 /* TragaperrasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84954EEC297691E600CF6A75 /* TragaperrasUITests.swift */,
+				84954EEE297691E600CF6A75 /* Info.plist */,
+			);
+			path = TragaperrasUITests;
+			sourceTree = "<group>";
+		};
+		84954EFA297693D900CF6A75 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				849D1CF12976B26700B9640A /* 5.png */,
+				849D1CEF2976B25800B9640A /* 4.png */,
+				849D1CED2976B25300B9640A /* 3.png */,
+				849D1CEB2976B24A00B9640A /* 2.png */,
+				849D1CE92976B24400B9640A /* 1.png */,
+				849D1CE72976B23B00B9640A /* 0.png */,
+				849D1CD92976A79700B9640A /* boton.png */,
+				84954F09297694DD00CF6A75 /* tragaperras.jpg */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84954EC6297691E500CF6A75 /* Tragaperras */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84954EF1297691E600CF6A75 /* Build configuration list for PBXNativeTarget "Tragaperras" */;
+			buildPhases = (
+				84954EC3297691E500CF6A75 /* Sources */,
+				84954EC4297691E500CF6A75 /* Frameworks */,
+				84954EC5297691E500CF6A75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tragaperras;
+			productName = Tragaperras;
+			productReference = 84954EC7297691E500CF6A75 /* Tragaperras.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84954EDC297691E600CF6A75 /* TragaperrasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84954EF4297691E600CF6A75 /* Build configuration list for PBXNativeTarget "TragaperrasTests" */;
+			buildPhases = (
+				84954ED9297691E600CF6A75 /* Sources */,
+				84954EDA297691E600CF6A75 /* Frameworks */,
+				84954EDB297691E600CF6A75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84954EDF297691E600CF6A75 /* PBXTargetDependency */,
+			);
+			name = TragaperrasTests;
+			productName = TragaperrasTests;
+			productReference = 84954EDD297691E600CF6A75 /* TragaperrasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84954EE7297691E600CF6A75 /* TragaperrasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84954EF7297691E600CF6A75 /* Build configuration list for PBXNativeTarget "TragaperrasUITests" */;
+			buildPhases = (
+				84954EE4297691E600CF6A75 /* Sources */,
+				84954EE5297691E600CF6A75 /* Frameworks */,
+				84954EE6297691E600CF6A75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84954EEA297691E600CF6A75 /* PBXTargetDependency */,
+			);
+			name = TragaperrasUITests;
+			productName = TragaperrasUITests;
+			productReference = 84954EE8297691E600CF6A75 /* TragaperrasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84954EBF297691E500CF6A75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = IvanMulero;
+				TargetAttributes = {
+					84954EC6297691E500CF6A75 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					84954EDC297691E600CF6A75 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 84954EC6297691E500CF6A75;
+					};
+					84954EE7297691E600CF6A75 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 84954EC6297691E500CF6A75;
+					};
+				};
+			};
+			buildConfigurationList = 84954EC2297691E500CF6A75 /* Build configuration list for PBXProject "Tragaperras" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84954EBE297691E500CF6A75;
+			productRefGroup = 84954EC8297691E500CF6A75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84954EC6297691E500CF6A75 /* Tragaperras */,
+				84954EDC297691E600CF6A75 /* TragaperrasTests */,
+				84954EE7297691E600CF6A75 /* TragaperrasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84954EC5297691E500CF6A75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849D1CF02976B25800B9640A /* 4.png in Resources */,
+				849D1CDA2976A79700B9640A /* boton.png in Resources */,
+				849D1CEA2976B24400B9640A /* 1.png in Resources */,
+				84954F1A29769F3B00CF6A75 /* maquina.mp3 in Resources */,
+				84954ED7297691E600CF6A75 /* LaunchScreen.storyboard in Resources */,
+				849D1CE82976B23B00B9640A /* 0.png in Resources */,
+				849D1CEE2976B25300B9640A /* 3.png in Resources */,
+				84954ED4297691E600CF6A75 /* Assets.xcassets in Resources */,
+				849D1CEC2976B24A00B9640A /* 2.png in Resources */,
+				849D1CF22976B26700B9640A /* 5.png in Resources */,
+				84954F0A297694DD00CF6A75 /* tragaperras.jpg in Resources */,
+				84954ED2297691E500CF6A75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84954EDB297691E600CF6A75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84954EE6297691E600CF6A75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84954EC3297691E500CF6A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84954ECF297691E500CF6A75 /* ViewController.swift in Sources */,
+				84954ECB297691E500CF6A75 /* AppDelegate.swift in Sources */,
+				84954ECD297691E500CF6A75 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84954ED9297691E600CF6A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84954EE2297691E600CF6A75 /* TragaperrasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84954EE4297691E600CF6A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84954EED297691E600CF6A75 /* TragaperrasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84954EDF297691E600CF6A75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84954EC6297691E500CF6A75 /* Tragaperras */;
+			targetProxy = 84954EDE297691E600CF6A75 /* PBXContainerItemProxy */;
+		};
+		84954EEA297691E600CF6A75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84954EC6297691E500CF6A75 /* Tragaperras */;
+			targetProxy = 84954EE9297691E600CF6A75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84954ED0297691E500CF6A75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84954ED1297691E500CF6A75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84954ED5297691E600CF6A75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84954ED6297691E600CF6A75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84954EEF297691E600CF6A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84954EF0297691E600CF6A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84954EF2297691E600CF6A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWNULHUAN6;
+				INFOPLIST_FILE = Tragaperras/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.azarquiel.Tragaperras;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84954EF3297691E600CF6A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWNULHUAN6;
+				INFOPLIST_FILE = Tragaperras/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.azarquiel.Tragaperras;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84954EF5297691E600CF6A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWNULHUAN6;
+				INFOPLIST_FILE = TragaperrasTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.azarquiel.TragaperrasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tragaperras.app/Tragaperras";
+			};
+			name = Debug;
+		};
+		84954EF6297691E600CF6A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWNULHUAN6;
+				INFOPLIST_FILE = TragaperrasTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.azarquiel.TragaperrasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tragaperras.app/Tragaperras";
+			};
+			name = Release;
+		};
+		84954EF8297691E600CF6A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWNULHUAN6;
+				INFOPLIST_FILE = TragaperrasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.azarquiel.TragaperrasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tragaperras;
+			};
+			name = Debug;
+		};
+		84954EF9297691E600CF6A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SWNULHUAN6;
+				INFOPLIST_FILE = TragaperrasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = net.azarquiel.TragaperrasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tragaperras;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84954EC2297691E500CF6A75 /* Build configuration list for PBXProject "Tragaperras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84954EEF297691E600CF6A75 /* Debug */,
+				84954EF0297691E600CF6A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84954EF1297691E600CF6A75 /* Build configuration list for PBXNativeTarget "Tragaperras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84954EF2297691E600CF6A75 /* Debug */,
+				84954EF3297691E600CF6A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84954EF4297691E600CF6A75 /* Build configuration list for PBXNativeTarget "TragaperrasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84954EF5297691E600CF6A75 /* Debug */,
+				84954EF6297691E600CF6A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84954EF7297691E600CF6A75 /* Build configuration list for PBXNativeTarget "TragaperrasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84954EF8297691E600CF6A75 /* Debug */,
+				84954EF9297691E600CF6A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84954EBF297691E500CF6A75 /* Project object */;
+}
